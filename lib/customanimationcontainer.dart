@@ -170,7 +170,7 @@ class _CustomAnimationContainerState extends State<CustomAnimationContainer> wit
             AnimatedBuilder(animation: animationController, builder: (context,v){
               return Container(
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(18.0),
+                      borderRadius: BorderRadius.circular(18.1),
                       color: widget.isDone == false ? Constant.transparent.withOpacity(0.2) :
                       animationColor2.value,
                       border: Border.all(width: 2,color: Constant.sandyBrown,strokeAlign: StrokeAlign.inside,)
